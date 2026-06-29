@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Schibsted_Grotesk, Martian_Mono, Geist } from "next/font/google";
 import "./global.css";
-import LightRays from "./components/LightRays";
-import Navbar from "./components/Navbar";
+import LightRays from "@/components/LightRays";
+import Navbar from "@/components/Navbar";
 import { cn } from "@/lib/utils";
-import PostHogProvider from "./components/PostHogProvider";
+import PostHogProvider from "@/components/PostHogProvider";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
